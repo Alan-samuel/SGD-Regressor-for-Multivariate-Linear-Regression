@@ -21,6 +21,7 @@ Developed by: Alan Samuel Vedanayagam
 RegisterNumber:  212223040012
 */
 ```
+```
 import numpy as np
 import pandas as pd
 from sklearn.datasets import fetch_california_housing
@@ -51,7 +52,7 @@ Y_test=scaler_Y.inverse_transform(Y_test)
 mse=mean_squared_error(Y_test,Y_pred)
 print("Mean Squared Error:",mse)
 print("\nPredictions:\n",Y_pred[:5])
-
+```
 ## Output:
 ![multivariate linear regression model for predicting the price of the house and number of occupants in the house](sam.png)
 ![image](https://github.com/user-attachments/assets/efe87b01-838f-4d7f-83a9-11933709b384)
